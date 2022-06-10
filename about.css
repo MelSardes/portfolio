@@ -1,0 +1,169 @@
+/*--------------------------------------------------------------
+  # Sections General
+  --------------------------------------------------------------*/
+
+#about {
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    background-color: #41414D;
+    color: #fff;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+
+.about-me .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #18d26e;
+}
+
+.about-me .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-me .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about-me .content ul strong {
+    margin-right: 10px;
+}
+
+.about-me .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #18d26e;
+    line-height: 0;
+}
+
+.about-me .content p:last-child {
+    margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+  # Counts
+  --------------------------------------------------------------*/
+
+.counts {
+    padding: 70px 0 60px;
+}
+
+.counts .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.counts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    color: #18d26e;
+    border-radius: 50px;
+    line-height: 0;
+}
+
+.counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #fff;
+}
+
+.counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+
+.counts {
+    padding: 70px 0 60px;
+}
+
+.counts .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.counts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    color: #18d26e;
+    border-radius: 50px;
+    line-height: 0;
+}
+
+.counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #fff;
+}
+
+.counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
